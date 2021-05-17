@@ -1,7 +1,9 @@
 /* —————————————— General —————————————— */
 
 * {
-    margin: 0; padding: 0; box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -10,7 +12,8 @@
 }
 
 .row{
-    display: flex; flex-wrap: wrap;
+    display: flex; 
+    flex-wrap: wrap;
 }
 
 .row-vert{
@@ -31,6 +34,24 @@ aside{
     aside{
         min-width: 230px;
     }
+}
+
+.call-to-action{
+    position: fixed;
+    width: calc(100% - 230px);
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: right;
+}
+
+.call-to-action a.btn{
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    line-height: 90px;
+    margin-right: 50px;
 }
 
 /* —————————————— Flex alignments —————————————— */
