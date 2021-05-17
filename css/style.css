@@ -40,12 +40,13 @@ main.debug {
 
 .debug footer{
     height:100px;
-    background-color: pink;
+    background-color: #181818;
+    border-top: 1px solid #282828;
 }
 
 .debug .main-content{
     height:100%;
-    background-color: blueviolet;
+    background-color: #121212;
 }
 
 .debug .box{
